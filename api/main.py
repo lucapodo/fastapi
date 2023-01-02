@@ -8,6 +8,7 @@ async def root():
 
 @app.get("/users")
 async def users():
+    print('ciap')
     users = [
         {
             "name": "Mars Kule",
