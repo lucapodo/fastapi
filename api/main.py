@@ -29,3 +29,7 @@ async def users():
     ]
 
     return users
+
+@app.get("/employee/{id}")
+def home(id: int):
+    return {"id": id}
